@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+  background: url("/images/christoffer-engstrom-wc9avd2RaN0-unsplash.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+  margin: 40px 0;
+}
+
+main {
+  padding-top: 10vh;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+div[class="bg-text"]::before {
+  display: block;
+  content: attr(data-water);
+  /* height: 100px;
+  width: 100px; */
+  /* background: red; */
+}
+
+h1 {
+  margin-bottom: 6px;
+}
+
+.bg-text {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 20rem;
+  font-weight: bold;
+  line-height: 300px;
+}
+
+.info-box {
+  background: rgba(255, 255, 255, 0.561);
+  padding: 40px;
+  margin: 0 20px;
+  width: 450px;
+}
+
+.text-color {
+  color: rgb(78, 78, 78);
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  /* padding-top: 4px;
+  padding-bottom: 10px; */
+}
