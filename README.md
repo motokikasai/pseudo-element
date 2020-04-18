@@ -2,7 +2,7 @@
 
 Follow the example image:
 
-![example](author-card-example.png)
+![example](water-pollution-stats-example.png)
 
 and create a water pollution awareness mini page.
 
